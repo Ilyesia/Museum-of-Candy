@@ -2,7 +2,7 @@
 Feel free to pull. Make sure to update information accordingly
 
 ## Links
-Live Site URL: []
+Live Site URL: [https://ilyesia.github.io/Museum-of-Candy/]
 
 ## Process
 Usages of Bootstrap 4 again building from mobile format and adjusting for larger formats using media queries. 
