@@ -1,11 +1,31 @@
 body {
 	background: #f5d9df;
-	font-family: "Nunito". sans-serif;
+	font-size: 2rem;
+}
+
+.blurb h2 {
+	color: #ea1c2c;
+	font-weight: 400;
+	font-size: 2.5rem;
+	font-family: "Nunito" sans-serif;
+}
+
+.blurb p {
+	color: #f498b8;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 2;
+	font-family: "Nunito" sans-serif;
+}
+
+.content {
+	margin: 0;
 }
 
 #mainNav {
 	font-size: 1.5rem;
 	font-weight: 100;
+	font-family: "Staatliches", sans-serif;
 }
 
 #mainNav .nav-link {
@@ -14,8 +34,37 @@ body {
 
 #mainNav .nav-link:hover {
 	color: #ea1c2c;
+	font-size: 2rem;
 }
 
 #mainNav .navbar-brand {
 	color: #ea1c2c;
+	font-size: 1.5rem;
+}
+
+#headingGroup span {
+	color: #ea1c2c;
+}
+
+#headingGroup h1 {
+	font-size: 5rem;
+	font-weight: 200;
+}
+
+.navbar.scrolled {
+	background: #b59bac;
+	transition: background 300ms;
+}
+
+@media (max-width: 1200px) {
+	#headingGroup h1 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+	.blurb p {
+		margin: 50px 0 25px 0;
+	}
+	.blurb h2 {
+		margin: 50px 0 0 0;
+	}
 }
