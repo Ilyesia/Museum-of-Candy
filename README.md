@@ -1,4 +1,4 @@
-#Contributing
+# Contributing
 Feel free to pull. Make sure to update information accordingly
 
 ## Links
