@@ -56,6 +56,17 @@ body {
 	transition: background 300ms;
 }
 
+.attribution {
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	padding-bottom: 20px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 1200px) {
 	#headingGroup h1 {
 		font-weight: 100;
